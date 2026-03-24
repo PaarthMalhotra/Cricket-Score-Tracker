@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+    * {
+        padding: 0px;
+        margin: 0px;
+    }
+
+    #start {
+        background-color: beige;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        min-height: 100vh;
+    }
+
+    #main{
+    border: 3px solid burlywood;
+    border-radius: 2vw;
+    width: 50vw;
+    height: 50vh;
+
+    margin: auto;            /* horizontal center */
+    margin-top: 20vh;        /* push it down from top */
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+    button {
+        margin: auto;
+        background-color: beige;
+        font-size: 20px;
+        border: 3px solid burlywood;
+        border-radius: 20px;
+        padding: 10px;
+
+        min-width: 15vw;
+        min-height: 10vh;
+
+    }
+
+    button:hover {
+        background-color: burlywood;
+        transform: scale(1.2);
+    }
+</style>
+
+<body>
+    <section id=start>
+        
+        <div id="main">
+            <button type="button" onclick="window.location.href='/new'">NEW</button>
+            <button type="button" onclick="window.location.href='/past-records'">PAST RECORDS</button> 
+        </div>
+    </section>
+</body>
+
+</html>

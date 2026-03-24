@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+<body>
+<h1 style="margin: auto;">1st Inning</h1>
+    <form action="/update_ball_1" method="POST">
+        <div>
+            <label >Which ball of the Over</label>
+            <input type="radio" name="ball_count" value="1">1
+            <input type="radio" name="ball_count" value="2">2
+            <input type="radio" name="ball_count" value="3">3
+            <input type="radio" name="ball_count" value="4">4
+            <input type="radio" name="ball_count" value="5">5
+            <input type="radio" name="ball_count" value="6">6
+        </div>
+        <div>
+            <label >How many runs in this ball:</label>
+            <input type="radio" name="runs" value="0">0
+            <input type="radio" name="runs" value="1">1
+            <input type="radio" name="runs" value="2">2
+            <input type="radio" name="runs" value="3">3
+            <input type="radio" name="runs" value="4">4
+            <input type="radio" name="runs" value="5">5
+            <input type="radio" name="runs" value="6">6
+        </div>
+<!-- 
+        <div>
+            <label >Ball:</label>
+            <input type="radio" name="ball" value="fair-ball">fair-ball
+            <input type="radio" name="ball" value="wide-ball">wide-ball
+            <input type="radio" name="ball" value="no-ball">no-ball
+        </div>
+        
+-->
+
+
+        <div>
+            <label >Any Out:</label>
+            <input type="radio" name="out" value="yes">Yes
+            <input type="radio" name="out" value="no">No
+        </div>
+
+
+        <button type="submit">Update</button>
+
+    </form>
+
+</body>
+</html>
